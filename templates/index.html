@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Adding some basic styles for color and background image -->
+    <style>
+        body {
+            background-color: #000000;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-image: url('path/to/your/image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    
+        h1 {
+            color: #007bff;
+            text-align: center; /* Center-align the text */
+            margin-top: 50px; /* Add margin from the top */
+            font-size: 60px; /* Set the font size to enlarge the title */
+        }
+    
+        form {
+            margin-top: 20px;
+            text-align: center; /* Center-align the form */
+        }
+    
+        input[type="file"] {
+            padding: 10px;
+            margin-right: 10px;
+        }
+    
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    
+
+    <title>Tomato Disease Classification</title>
+</head>
+
+<body>
+    <h1>Tomato Disease Classification</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".jpg, .jpeg, .png" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

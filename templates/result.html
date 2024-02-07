@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+
+    <!-- Adding some basic styles for color and background image -->
+    <style>
+      body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-image: url('#');  /* Update this line */
+    background-size: cover;
+    background-position: center;
+}
+
+
+        h1 {
+            color: #007bff; /* Set header color to a shade of blue */
+        }
+
+        p {
+            font-size: 18px; /* Set font size for the predicted class */
+            font-weight: bold; /* Set font weight to bold */
+            color: #28a745; /* Set text color to green */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Predicted Class:</h1>
+    <p>{{ predicted_class }}</p>
+</body>
+
+</html>
